@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMITE Quiz App | HyBV</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN Link for Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <!-- Start Quiz Button -->
+    <div class="start_btn"><button>Start Quiz</button></div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info_title">
+            <span>Some Rules for this Quiz</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. You will only have <span>15 seconds</span> to answer each question.</div>
+            <div class="info">2. Once you select your answer, you can't change it. Choose wisely!</div>
+            <div class="info">3. You won't be able to select an answer once the timer expires.</div>
+            <div class="info">4. You can't exit from the Quiz while you're playing.</div>
+            <div class="info">5. You will be graded at the end of the Quiz!</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">SMITE Quiz!</div>
+            <div class="timer">
+                <div class="time_text">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- <span>What is Persephone's most damaging non-ultimate ability?</span> -->
+            </div>
+            <div class="option_list">
+                <!-- <div class="option">
+                    <span>Pomegranate Seeds</span>
+                </div>
+                <div class="option">
+                    <span>Harvest</span>
+                    <div class="icon tick"><i class="fas fa-check"></i></div>
+                </div>
+                <div class="option">
+                    <span>Flourish</span>
+                </div>
+                <div class="option">
+                    <span>Bone Rush</span>
+                    <div class="icon cross"><i class="fas fa-times"></i></div>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- Quiz Box Footer -->
+        <footer>
+            <div class="total_que">
+                <!-- <span><p>2</p>Out Of<p>5</p>Questions</span> -->
+            </div>
+            <button class="next_btn">Next Question</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You Have Completed This Quiz!</div>
+        <div class="score_text">
+            <!-- <span>You got <p>2</p> out of <p>5</p>! You Rock, Cancel That!</span> -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="questions.js"></script>
+
+</body>
+</html>
